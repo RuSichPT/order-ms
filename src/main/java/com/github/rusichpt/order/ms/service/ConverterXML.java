@@ -1,6 +1,6 @@
-package com.github.rusichpt.order.ms.services;
+package com.github.rusichpt.order.ms.service;
 
-import com.github.rusichpt.order.ms.entities.Order;
+import com.github.rusichpt.order.ms.entity.Order;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;

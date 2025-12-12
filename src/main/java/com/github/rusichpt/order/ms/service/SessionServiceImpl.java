@@ -1,8 +1,8 @@
-package com.github.rusichpt.order.ms.services;
+package com.github.rusichpt.order.ms.service;
 
-import com.github.rusichpt.order.ms.entities.Session;
-import com.github.rusichpt.order.ms.filters.OrderFilter;
-import com.github.rusichpt.order.ms.mappers.SessionMapper;
+import com.github.rusichpt.order.ms.entity.Session;
+import com.github.rusichpt.order.ms.filter.OrderFilter;
+import com.github.rusichpt.order.ms.mapper.SessionMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

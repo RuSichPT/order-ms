@@ -1,10 +1,10 @@
-package com.github.rusichpt.order.ms.servlets;
+package com.github.rusichpt.order.ms.servlet;
 
-import com.github.rusichpt.order.ms.entities.Order;
-import com.github.rusichpt.order.ms.services.Command;
-import com.github.rusichpt.order.ms.services.ConverterXML;
-import com.github.rusichpt.order.ms.services.OrderServiceImpl;
-import com.github.rusichpt.order.ms.services.ParserXML;
+import com.github.rusichpt.order.ms.entity.Order;
+import com.github.rusichpt.order.ms.service.Command;
+import com.github.rusichpt.order.ms.service.ConverterXML;
+import com.github.rusichpt.order.ms.service.OrderServiceImpl;
+import com.github.rusichpt.order.ms.service.ParserXML;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.server.ResponseStatusException;
 import org.w3c.dom.Document;

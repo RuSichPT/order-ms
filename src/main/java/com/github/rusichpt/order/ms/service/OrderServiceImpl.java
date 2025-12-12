@@ -1,10 +1,10 @@
-package com.github.rusichpt.order.ms.services;
+package com.github.rusichpt.order.ms.service;
 
-import com.github.rusichpt.order.ms.entities.Patient;
-import com.github.rusichpt.order.ms.mappers.OrderItemMapper;
-import com.github.rusichpt.order.ms.mappers.OrderMapper;
-import com.github.rusichpt.order.ms.entities.Order;
-import com.github.rusichpt.order.ms.entities.OrderItem;
+import com.github.rusichpt.order.ms.entity.Patient;
+import com.github.rusichpt.order.ms.mapper.OrderItemMapper;
+import com.github.rusichpt.order.ms.mapper.OrderMapper;
+import com.github.rusichpt.order.ms.entity.Order;
+import com.github.rusichpt.order.ms.entity.OrderItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

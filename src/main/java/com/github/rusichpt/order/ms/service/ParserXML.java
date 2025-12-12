@@ -1,6 +1,6 @@
-package com.github.rusichpt.order.ms.services;
+package com.github.rusichpt.order.ms.service;
 
-import com.github.rusichpt.order.ms.entities.Order;
+import com.github.rusichpt.order.ms.entity.Order;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;

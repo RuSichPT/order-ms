@@ -1,4 +1,4 @@
-package com.github.rusichpt.order.ms.services;
+package com.github.rusichpt.order.ms.service;
 
 public enum Command {
     CREATE("create"),

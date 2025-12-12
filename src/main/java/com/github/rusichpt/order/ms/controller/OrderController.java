@@ -1,7 +1,7 @@
-package com.github.rusichpt.order.ms.controllers;
+package com.github.rusichpt.order.ms.controller;
 
-import com.github.rusichpt.order.ms.entities.Order;
-import com.github.rusichpt.order.ms.services.OrderServiceImpl;
+import com.github.rusichpt.order.ms.entity.Order;
+import com.github.rusichpt.order.ms.service.OrderServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

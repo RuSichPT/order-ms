@@ -1,6 +1,6 @@
-package com.github.rusichpt.order.ms.mappers;
+package com.github.rusichpt.order.ms.mapper;
 
-import com.github.rusichpt.order.ms.entities.OrderItem;
+import com.github.rusichpt.order.ms.entity.OrderItem;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 

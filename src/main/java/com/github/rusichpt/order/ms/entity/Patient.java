@@ -1,4 +1,4 @@
-package com.github.rusichpt.order.ms.entities;
+package com.github.rusichpt.order.ms.entity;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
