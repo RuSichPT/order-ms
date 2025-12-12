@@ -1,7 +1,7 @@
-package com.github.RuSichPT.TestOrderMicroservice.controllers;
+package com.github.rusichpt.order.ms.controllers;
 
-import com.github.RuSichPT.TestOrderMicroservice.entities.Order;
-import com.github.RuSichPT.TestOrderMicroservice.services.OrderServiceImpl;
+import com.github.rusichpt.order.ms.entities.Order;
+import com.github.rusichpt.order.ms.services.OrderServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

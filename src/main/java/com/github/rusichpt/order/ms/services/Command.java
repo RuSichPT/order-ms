@@ -1,4 +1,4 @@
-package com.github.RuSichPT.TestOrderMicroservice.services;
+package com.github.rusichpt.order.ms.services;
 
 public enum Command {
     CREATE("create"),

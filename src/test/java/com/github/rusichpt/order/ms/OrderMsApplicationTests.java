@@ -1,10 +1,10 @@
-package com.github.RuSichPT.TestOrderMicroservice;
+package com.github.rusichpt.order.ms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TestOrderMicroserviceApplicationTests {
+class OrderMsApplicationTests {
 
 	@Test
 	void contextLoads() {

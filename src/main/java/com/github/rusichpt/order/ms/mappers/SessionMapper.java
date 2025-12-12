@@ -1,6 +1,6 @@
-package com.github.RuSichPT.TestOrderMicroservice.mappers;
+package com.github.rusichpt.order.ms.mappers;
 
-import com.github.RuSichPT.TestOrderMicroservice.entities.Session;
+import com.github.rusichpt.order.ms.entities.Session;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

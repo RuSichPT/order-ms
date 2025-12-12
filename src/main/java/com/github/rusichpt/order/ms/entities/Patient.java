@@ -1,4 +1,4 @@
-package com.github.RuSichPT.TestOrderMicroservice.entities;
+package com.github.rusichpt.order.ms.entities;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

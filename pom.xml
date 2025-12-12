@@ -8,8 +8,8 @@
 		<version>2.7.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.github.RuSichPT</groupId>
-	<artifactId>TestOrderMicroservice</artifactId>
+	<groupId>com.github.rusichpt</groupId>
+	<artifactId>order-ms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TestOrderMicroservice</name>
 	<description>RESTful app</description>

@@ -1,10 +1,10 @@
-package com.github.RuSichPT.TestOrderMicroservice.servlets;
+package com.github.rusichpt.order.ms.servlets;
 
-import com.github.RuSichPT.TestOrderMicroservice.entities.Order;
-import com.github.RuSichPT.TestOrderMicroservice.services.Command;
-import com.github.RuSichPT.TestOrderMicroservice.services.ConverterXML;
-import com.github.RuSichPT.TestOrderMicroservice.services.OrderServiceImpl;
-import com.github.RuSichPT.TestOrderMicroservice.services.ParserXML;
+import com.github.rusichpt.order.ms.entities.Order;
+import com.github.rusichpt.order.ms.services.Command;
+import com.github.rusichpt.order.ms.services.ConverterXML;
+import com.github.rusichpt.order.ms.services.OrderServiceImpl;
+import com.github.rusichpt.order.ms.services.ParserXML;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.server.ResponseStatusException;
 import org.w3c.dom.Document;

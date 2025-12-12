@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.github.RuSichPT.TestOrderMicroservice.mappers.SessionMapper">
+<mapper namespace="com.github.rusichpt.order.ms.mappers.SessionMapper">
 
-    <resultMap id="SessionMap" type="com.github.RuSichPT.TestOrderMicroservice.entities.Session">
+    <resultMap id="SessionMap" type="com.github.rusichpt.order.ms.entities.Session">
         <id property="id" column="id"/>
         <result property="sessionId" column="session_id"/>
         <result property="startTime" column="start_time"/>

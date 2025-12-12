@@ -1,7 +1,7 @@
-package com.github.RuSichPT.TestOrderMicroservice.filters;
+package com.github.rusichpt.order.ms.filters;
 
-import com.github.RuSichPT.TestOrderMicroservice.entities.Session;
-import com.github.RuSichPT.TestOrderMicroservice.services.SessionServiceImpl;
+import com.github.rusichpt.order.ms.entities.Session;
+import com.github.rusichpt.order.ms.services.SessionServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

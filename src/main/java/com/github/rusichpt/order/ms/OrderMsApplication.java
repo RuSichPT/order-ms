@@ -1,4 +1,4 @@
-package com.github.RuSichPT.TestOrderMicroservice;
+package com.github.rusichpt.order.ms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,10 +10,10 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @ServletComponentScan
 @EnableCaching
-public class TestOrderMicroserviceApplication {
+public class OrderMsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestOrderMicroserviceApplication.class, args);
+		SpringApplication.run(OrderMsApplication.class, args);
 	}
 
 	@Bean

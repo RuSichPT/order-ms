@@ -2,15 +2,15 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.github.RuSichPT.TestOrderMicroservice.mappers.OrderMapper">
+<mapper namespace="com.github.rusichpt.order.ms.mappers.OrderMapper">
 
-    <resultMap id="OrderItemMap" type="com.github.RuSichPT.TestOrderMicroservice.entities.OrderItem">
+    <resultMap id="OrderItemMap" type="com.github.rusichpt.order.ms.entities.OrderItem">
         <id property="id" column="id"/>
         <result property="orderId" column="order_id"/>
         <result property="itemName" column="item_name"/>
     </resultMap>
 
-    <resultMap id="OrderMap" type="com.github.RuSichPT.TestOrderMicroservice.entities.Order">
+    <resultMap id="OrderMap" type="com.github.rusichpt.order.ms.entities.Order">
         <id property="id" column="id"/>
         <result property="orderStatusId" column="order_status_id"/>
         <result property="patientId" column="patient_id"/>
@@ -18,7 +18,7 @@
         <collection property="orderItems" resultMap="OrderItemMap" columnPrefix="OI_"/>
     </resultMap>
 
-    <insert id="insertOrder" keyColumn="ID" keyProperty="id" parameterType="com.github.RuSichPT.TestOrderMicroservice.entities.Order">
+    <insert id="insertOrder" keyColumn="ID" keyProperty="id" parameterType="com.github.rusichpt.order.ms.entities.Order">
         <selectKey keyProperty="id" resultType="int" order="BEFORE">
             SELECT NEXTVAL('order_seq')
         </selectKey>
@@ -59,7 +59,7 @@
         WHERE o.ID = CURRVAL('order_seq');
     </select>
 
-    <update id="updateOrder" parameterType="com.github.RuSichPT.TestOrderMicroservice.entities.Order">
+    <update id="updateOrder" parameterType="com.github.rusichpt.order.ms.entities.Order">
         UPDATE "order"
         SET
         ORDER_STATUS_ID = #{orderStatusId},

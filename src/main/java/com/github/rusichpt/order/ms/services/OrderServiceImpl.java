@@ -1,10 +1,10 @@
-package com.github.RuSichPT.TestOrderMicroservice.services;
+package com.github.rusichpt.order.ms.services;
 
-import com.github.RuSichPT.TestOrderMicroservice.entities.Patient;
-import com.github.RuSichPT.TestOrderMicroservice.mappers.OrderItemMapper;
-import com.github.RuSichPT.TestOrderMicroservice.mappers.OrderMapper;
-import com.github.RuSichPT.TestOrderMicroservice.entities.Order;
-import com.github.RuSichPT.TestOrderMicroservice.entities.OrderItem;
+import com.github.rusichpt.order.ms.entities.Patient;
+import com.github.rusichpt.order.ms.mappers.OrderItemMapper;
+import com.github.rusichpt.order.ms.mappers.OrderMapper;
+import com.github.rusichpt.order.ms.entities.Order;
+import com.github.rusichpt.order.ms.entities.OrderItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
