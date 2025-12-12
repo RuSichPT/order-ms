@@ -11,7 +11,7 @@
 	<groupId>com.github.rusichpt</groupId>
 	<artifactId>order-ms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TestOrderMicroservice</name>
+	<name>order-ms</name>
 	<description>RESTful app</description>
 	<properties>
 		<java.version>17</java.version>
