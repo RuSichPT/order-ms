@@ -1,4 +1,4 @@
-# Test_Order_Microservice
+# order-ms
 Practice java (inobitec)
 
 Задание №1. Разработка Java RESTful сервиса
